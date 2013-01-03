@@ -1,4 +1,4 @@
-# create as an answer to http://stackoverflow.com/questions/13702405/
+# created as an answer to http://stackoverflow.com/questions/13702405/
 
 import re, os
 from urlparse import urlparse
@@ -19,7 +19,7 @@ class NewFileFromScopeCommand(sublime_plugin.TextCommand):
             sel_scope = self.view.extract_scope(sel.a)
             scope_str = self.view.substr(sel_scope)
 
-            # scope will include surrounding single and double quotes, get rid of them.
+            # scope will most probably include surrounding single and double quotes, get rid of them.
             scope_str = re.sub('[\'\"]', '', scope_str)
 
             # thanks to http://stackoverflow.com/questions/449775/
