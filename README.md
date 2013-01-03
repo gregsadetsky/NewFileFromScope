@@ -20,7 +20,7 @@ place the cursor anywhere in the *app.css* text, open the Command Palette (Comma
 I didn't want to pollute the list of packages available through the amazing Package Control. Because of this, installation of this plugin requires a bit more handling than usual:
 
 1. Open the Command Palette and invoke the **Package Control: Add Repository** command
-2. Paste "**https://github.com/gregsadetsky/NewFileFromScope.git**" into the input panel, then press enter
+2. Paste "https://github.com/gregsadetsky/NewFileFromScope.git" (without the quotes) into the input panel, then press enter
 3. Open the Command Palette and invoke the **Package Control: Install Package** command
 4. Type **New File From Scope** -- the list of proposed plugins should filter down to this sole one
 5. Select the plugin in the list, and press enter
