@@ -11,7 +11,7 @@ For instance, while editing the following line:
 
     <link href="app.css" rel="stylesheet">
 
-place the cursor anywhere in the *app.css* text, open the Command Palette (Command + Shift + P under OS X) and invoke **New File From Scope**. This will get you a new empty file pre-named app.css.
+place the cursor anywhere in the *app.css* text, open the Command Palette (Command + Shift + P under OS X) and invoke **New File From Scope**. This will get you a new, empty file pre-named app.css.
 
 ================
 
